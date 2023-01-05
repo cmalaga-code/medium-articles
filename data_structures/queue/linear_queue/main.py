@@ -19,6 +19,14 @@ def main():
     print(f"I have {q.node_count} nodes in queue")
     print("___Peek___")
     q.peek()
+    print("___Dequeue___")
+    print(f"I deleted this node from the queue: {q.dequeue().data}")
+    print("___Count Queue Objects___")
+    print(f"I have {q.node_count} nodes in queue")
+    print("___Dequeue___")
+    print(f"I deleted this node from the queue: {q.dequeue().data}")
+    print("___Count Queue Objects___")
+    print(f"I have {q.node_count} nodes in queue")
 
 if __name__ == "__main__":
     main()
